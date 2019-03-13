@@ -22,7 +22,7 @@ export default {
 
 <style>
 .TextTitle{
-    margin-top: -8px;
+    margin-top: 0px;
     height: 50px;
     border: 1px solid whitesmoke;
     border-left: 0px;

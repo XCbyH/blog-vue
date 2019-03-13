@@ -1,0 +1,189 @@
+/* Textcontent */
+.Textcontent{
+    width: 829px;
+    background-color: white;
+    padding: 50px;
+    padding-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    zoom:1;
+    overflow: hidden;
+  }
+  .currentpath{
+    width: 100%;
+    height: 30px;
+  }
+  .currentpath a{
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color:olivedrab;
+  }
+  .pathImg{
+    margin-top: 4px;
+    float: left;
+    margin-left: 10px;
+    color:darkgray;
+  }
+  .title h2{
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+    width: 100%;
+    height: auto;
+  }
+  .tools{
+      width: 100%;
+      height: auto;
+  }
+  .tools div{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 20px;
+      display: inline;
+      float: left;
+      font-size: 15px;
+  }
+  .tools a{
+      text-decoration: none;
+      color:olivedrab;
+  }
+  .userpicture{
+    width:20px;
+    height:20px;
+    margin-right:5px;
+    margin-left:-20px;
+  
+  }
+  .content{
+    float: left;
+    height:auto; 
+    width:100%;
+    font-size: 16px;
+    word-wrap:break-word;
+  }
+
+
+/* Appitem */
+  .item{
+    margin-top: 0px;
+    background-color: white;
+    border: 1px solid rgba(34,36,38,.15);
+    border-top: 0px;
+    padding: 14px;
+    width: 340px;
+    height: 801px;
+  }
+  .item button{
+    width: 112px;
+    height: 33.4px;
+    margin-top: 5px;
+  }
+  .picture{
+    height: 120px;
+    text-align: center; 
+  }
+  .pictureImg{
+    width: 120px;
+    height: 100%;
+  }
+  .userlist td{
+    text-align: center;
+    margin-top: 0px;
+    padding-left: 40px;
+  }
+  .userlist a{
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+  
+  }
+  .userlist span{
+    color: rgba(0,0,0,.87);
+    font-size: 20px;
+  }
+  .operationone{
+    float: left;
+    margin-left: 50px;
+  }
+  .jilu{
+    text-align: left;
+    color: black;
+    font-size: 15px;
+  }
+  .item h3{
+    margin-top: 20px;
+    text-align: left;
+  }
+  .advert{
+    margin-top: 20px;
+  }
+  .erweima{
+    width: 120px;
+    height: 120px;
+  }
+
+  /* TextForm */
+  .TextForm{
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 120px;
+}
+.texttitle{
+    width: 100%;
+    height: 30px;
+}
+.texttitle p{
+    float: left;
+    height: 0px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.textcontext{
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-top: 3px;
+}
+.textcontext p{
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    
+}
+.texttype{
+    margin-top:1px;
+    float: left; 
+    width: 100%;
+    height: auto;
+}
+.type{
+    background-color: whitesmoke;
+    border: 4px solid whitesmoke;
+    color:darkgrey;
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    width: auto;
+    height: auto;
+}
+.operate{
+    float: left;
+    margin-bottom: 10px;
+}
+.operate div{
+    margin-top: 5px;
+    margin-left: 20px;
+    display: inline;
+    float: left;
+    
+}
+a{
+    font-size: 6px;
+    text-decoration: none;
+    color: black;
+}

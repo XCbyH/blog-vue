@@ -1,6 +1,6 @@
 <template>
     <div class="textList">
-        <div class="testtitle">
+        <div class="blogtitle">
             <text-title></text-title>
         </div>
         <div class="textform">
