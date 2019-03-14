@@ -58,6 +58,7 @@
   
   }
   .content{
+    text-align: left;
     float: left;
     height:auto; 
     width:100%;
@@ -124,20 +125,23 @@
     height: 120px;
   }
 
-  /* TextForm */
-  .TextForm{
-    border-bottom: 1px solid whitesmoke;
-    margin-bottom: 10px;
-    width: 100%;
-    height: 120px;
+/* TextForm */
+.TextForm{
+  border-bottom: 1px solid whitesmoke;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 120px;
 }
 .texttitle{
     width: 100%;
     height: 30px;
+
 }
 .texttitle p{
+    text-align: left;
     float: left;
-    height: 0px;
+    width: 100%;
+    height: auto;
     font-size: 20px;
     margin-top: 5px;
     margin-bottom: 0px;

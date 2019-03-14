@@ -1,7 +1,8 @@
 <template>
 <div class="TextTitle">
     <div class="title" > 
-        <a href="#">全部文章</a>
+        <a href="#" style="margin-right: 1px;">全部文章</a>
+        <i class="fa fa-sort-desc"style="margin-right: 50px;color: darkgreen;"></i>
         <a href="#">热门文章</a>
         <a href="#">动态</a>
         <a href="#">视频</a>

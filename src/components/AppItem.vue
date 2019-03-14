@@ -4,7 +4,9 @@
         <img class="pictureImg" src="../assets/vuelogo.jpg" >
       </div>
       <div><p>UserName</p></div>
-      <div class="operation3"><button>操作一</button></div>
+      <div class="operation3">
+        <button>操作一</button>
+      </div>
       <div class="leftbox">
         <table class="userlist">
             <tr>

@@ -1,6 +1,6 @@
 <template>
   <footer>
-    Made with HuMengGroup from <a href="http://www.humenggroup.com/" target="_blank"></a>. This project is open source, visit <a href="http://www.humenggroup.com/" target="_blank">clim here.</a>
+    Made with PlutoCheng from . This project is open source, visit <a href="https://github.com/PlutoCheng/blog-vue" target="_blank">clim here.</a>
   </footer>
 </template>
 <style scoped>

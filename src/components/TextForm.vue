@@ -1,7 +1,7 @@
 <template>
     <div class="TextForm">
         <div class="texttitle">
-            <router-link to="/Textcontent"><b><p>TextTitle, Hello World! Hi! Vue.js</p></b></router-link>
+            <a href="http://localhost:8080/Textcontent"><b><p>TextTitle, Hello World! Hi! Vue.js</p></b></a>
         </div>
         <div class="textcontext">
             <p>textcontexthahahahhah...ssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
