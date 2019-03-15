@@ -1,9 +1,11 @@
 <template>
 <div class="TextSearch">
-    <div class="search" > 
-        <input type="text">
-        <i></i>
-    </div>
+    <form class="SearchForm">
+        <div class="SearchInput">
+            <input type="text" placeholder="输入关键字">
+        </div>
+        <i class="fa fa-search" style=""></i>
+    </form>
 </div>
 </template>
 <script>
@@ -15,17 +17,26 @@ export default {
 
 <style>
 .TextSearch{
-    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 1px solid darkgrey;
+}
+.SearchInput{
     float: left;
 }
-.search{
-    width: 210px;
-    height: 40px;
-    float: right;
+.SearchInput input{
+    outline:none;
+    border:0px;
+    margin-left: 5px
 }
-.search input{
-    width: 200px;
-    height: 27px;
+.SearchForm i{
+    background-color: white;
+    margin-right:5px;
 }
 </style>
 

@@ -49,10 +49,11 @@ export default {
     font-size: 20px;
 }
 .search{
-    width: 200px;
-    height: 30px;
-    float: left;
+    width: auto;
+    height: auto;
+    float: right;
     margin-right:20px;
+    margin-top: 8px;
 }
 </style>
 

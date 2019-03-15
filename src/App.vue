@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <div style="position: fixed;width:100%">
       <head-navigation></head-navigation>
     </div>
     <div id="app">

@@ -43,11 +43,13 @@ export default{
     display: inline;
     float: left;
     width: 370px;
+    margin-top: 30px;
 }
 .rightDiv{
     display: inline;
     float: left;
     width: 570px;
     margin-left: 0px;
+    margin-top: 30px;
 }
 </style>

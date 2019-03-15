@@ -1,45 +1,71 @@
 <template>
-<div class="BookDiv">
-    <table class="navigation" > 
-        <thead>
-            <tr>
-                <th><img src="./assets/google.png" id="bookImg"/></th>
-                <th>首页</th>
-                <th>论坛</th>
-                <th>相册</th>
-                <th>动态</th>
-            </tr>
-        </thead>
-    </table>
+<div class="Headnavigation">
+    <div class="navigationImg">
+        <img src="./assets/google.png" id="Bloglog"/></th>
+    </div>
+    <div class="navigationSearch">
+        <search></search>
+    </div>
+    <div class="navigation">
+        <a href="#">首页</a>
+    </div>
+    <div class="navigation">
+         <a href="#">论坛</a>
+    </div>
+    <div class="navigation">
+         <a href="#">咨询</a>
+    </div>
+    <div class="navigation">    
+         <a href="#">活动</a>
+    </div>     
 </div>
 </template>
+<script>
+import Search from "./components/Search.vue";
+export default {
+    components:{
+        Search,
+    },
+}
+</script>
+
 <style>
-.BookDiv{
+.Headnavigation{
     margin-top: -8px;
     width: 100%;
     height: 37px;
+    display: flex;
+    background-color: black;
 }
-#bookImg{
-    float: left;
+#Bloglog{
     width: 70px;
     height: 30px;
 }
-.routers {
-    font-size: 20px;
-    color: w;
-    text-decoration: none;
-  }
-.navigation{
-    width: 100%;
-    height: 45px;
-    float: left;
-    color: azure;
-    background-color:rgb(0,0,0,.87);
+.navigationSearch{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 15px;
 }
-.carImg{
-    float:right;
-    width: 60px;
-    height: 45px;
+
+.navigation{
+    width: 3%;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigationImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
 }
 </style>
 
