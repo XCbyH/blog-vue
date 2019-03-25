@@ -26,17 +26,10 @@
     margin-left: 10px;
     color:darkgray;
   }
-  .title h2{
-    text-align: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: black;
-    width: 100%;
-    height: auto;
-  }
   .tools{
       width: 100%;
-      height: auto;
+      height: 30px;
+      display: flex;
   }
   .tools div{
       margin-top: 5px;

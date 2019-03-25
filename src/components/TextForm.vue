@@ -1,10 +1,10 @@
 <template>
     <div class="TextForm">
         <div class="texttitle">
-            <a href="http://localhost:8080/Textcontent"><b><p>TextTitle, Hello World! Hi! Vue.js</p></b></a>
+           <router-link to="/textcontent"><b><p>TextTitle, Hello World! Hi! Vue.js</p></b></a></router-link>
         </div>
         <div class="textcontext">
-            <p>textcontexthahahahhah...ssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+            <p>党的十八大提出，倡导富强、民主、文明、和谐，倡导自由 、平等、公正、法治，倡导爱国、敬业、诚信、友善......</p>
         </div>
         <div class="texttype">
             <label class="type">testtype</label>

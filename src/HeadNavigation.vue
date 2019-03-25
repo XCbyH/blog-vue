@@ -7,7 +7,7 @@
         <search></search>
     </div>
     <div class="navigation">
-        <a href="#">首页</a>
+        <router-link to="/">首页</router-link>
     </div>
     <div class="navigation">
          <a href="#">论坛</a>

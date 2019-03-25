@@ -1,14 +1,14 @@
 <template>
   <div class="Textcontent">
     <div class="currentpath">
-        <router-link to="/" style="margin-left:0px;">用户姓名</router-link>
+        <router-link to="/index" style="margin-left:0px;">用户姓名</router-link>
         <label class="pathImg">></label>
         <a href="#">日志类型</a>
         <label class="pathImg">></label>
         <a href="#">正文</a>
     </div>
     <div class="title">
-      <h2>TextTitle假设标题长度这么长</h2>
+      <p class="titlecontent"><b>假设标题长度这么长</b></p>
     </div>
     <div class="tools">
       <div>
@@ -149,6 +149,21 @@ export default {
 }
 .personinfo{
   float: left;
+}
+.title {
+  width: 100%;
+  height: 30px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.titlecontent{
+  font-size: 23px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+  width: 100%;
+  height: 30px;
 }
 .orthertitles{
   text-align: left;
