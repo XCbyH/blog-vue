@@ -1,13 +1,13 @@
 <template>
     <div class="TextForm">
         <div class="texttitle">
-           <router-link to="/textcontent"><b><p>TextTitle, Hello World! Hi! Vue.js</p></b></a></router-link>
+           <router-link to="/textcontent"><b><p>netty的心跳机制笔记</p></b></a></router-link>
         </div>
         <div class="textcontext">
-            <p>党的十八大提出，倡导富强、民主、文明、和谐，倡导自由 、平等、公正、法治，倡导爱国、敬业、诚信、友善......</p>
+            <p>使用 Netty 实现心跳机制的关键就是利用 IdleStateHandler 来产生对应的......</p>
         </div>
         <div class="texttype">
-            <label class="type">testtype</label>
+            <label class="type">工作日记</label>
         </div>
         <div class="operate">
             <div style="margin-left: 2px;">日志类型</div>

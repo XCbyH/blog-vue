@@ -1,7 +1,7 @@
 <template>
 <div class="Headnavigation">
     <div class="navigationImg">
-        <img src="./assets/google.png" id="Bloglog"/></th>
+        <img src="./assets/background.png" id="Bloglog"/></th>
     </div>
     <div class="navigationSearch">
         <search></search>
