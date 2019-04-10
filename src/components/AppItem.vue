@@ -4,8 +4,8 @@
         <img class="pictureImg" src="../assets/vuelogo.jpg" >
       </div>
       <div><p>UserName</p></div>
-      <div class="operation3">
-        <button>操作一</button>
+      <div class="usersetting">
+        <a href="#" ><label > &nbsp;账号设置</label></a>
       </div>
       <div class="leftbox">
         <table class="userlist">
@@ -27,9 +27,13 @@
             </tr>
         </table>
       </div>
-      <div >
-        <div class="operationone"><button>操作一</button></div>
-        <div class="operationtwo"><button>操作一</button></div>
+      <div id="operation">
+        <div class="write">
+          <a href="#" ><label > &nbsp;编写文章</label></a>
+        </div>
+        <div class="draft">
+          <a href="#" ><label > &nbsp;草稿箱（0）</label></a>
+        </div>
       </div>
       <div>
         <h3>统计</h3>
@@ -52,7 +56,9 @@
 </template>
 
 <script>
+
 export default {
+
   props: {
     item:{
       type:Object,
@@ -80,4 +86,46 @@ export default {
 
 <style scoped>
   @import "../style/blog_vue.css";
+.usersetting label{
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid darkgray;
+  justify-content: space-around;
+  background-color:whitesmoke;
+  color: darkgray;
+}
+.listtitle a{
+  font-size: 18px;
+}
+.write{
+  margin-bottom: 10px;
+  width: auto;
+  height: auto;
+}
+.write label{
+  width: 118px;
+  height: 26px;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px;
+
+  justify-content: space-around;
+  background-color: green;
+  color:white;
+}
+.draft{
+  margin-bottom: 10px;
+    width: auto;
+  height: auto;
+}
+.draft label{
+  width: 118px;
+  height: 26px;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid darkgray;
+  justify-content: space-around;
+  background-color:whitesmoke;
+  color:darkgray;
+}
 </style>

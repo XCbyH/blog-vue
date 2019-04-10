@@ -99,6 +99,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
   @import "../style/blog_vue.css";
 .auth{
   margin-top: 30px;

@@ -1,6 +1,7 @@
 <template>
   <footer>
-    Made with PlutoCheng from . This project is open source, visit <a href="https://github.com/PlutoCheng/blog-vue" target="_blank">clim here.</a>
+    <p>This project is open source, visit <a href="https://github.com/PlutoCheng/blog-vue" target="_blank">clim here.</a></p>
+    <p>Copyright ©2019 PlutoCheng</p>
   </footer>
 </template>
 <style scoped>
